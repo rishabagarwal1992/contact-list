@@ -25,8 +25,8 @@ const Friend = (props) => {
 			<div className="friend-actions">
 				<div className={`action-featured`} onClick={(e) => { toggleFeaturedStatus(value.id) }}>
 					{value.featured ?
-						<img src={`/static/images/star-filled.png`} width={`16`} height={`16`} />
-						: <img src={`/static/images/star.png`} width={`16`} height={`16`} />
+						<img src={`./static/images/star-filled.png`} width={`16`} height={`16`} />
+						: <img src={`./static/images/star.png`} width={`16`} height={`16`} />
 					}
 				</div>
 				<div className="action-delete" onClick={(e) => { handleDelete(value.id) }}>
