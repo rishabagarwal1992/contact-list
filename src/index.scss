@@ -1,0 +1,14 @@
+#container {
+  width: 320px;
+  margin: 0 auto;
+  border: 1px solid grey;
+
+  & * {
+    box-sizing: border-box;
+  }
+}
+header {
+  background-color: grey;
+  font-weight: bold;
+  padding: 10px;
+}
